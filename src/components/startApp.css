@@ -1,0 +1,14 @@
+body {
+    background-image: linear-gradient(180deg, #00ffff 0, #41f5ff 25%, #53bcf2 50%, #5087ab 75%, #425a6e 100%);
+}
+
+.global {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.card--width {
+    width: 50rem;
+    background-image: radial-gradient(circle at 50% -20.71%, #faffff 0, #d8f0fa 25%, #b5def2 50%, #92cbeb 75%, #72b9e5 100%);
+}
