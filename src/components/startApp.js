@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import "./startApp.css";
+import Container from "./container/Container";
 
 class StartApp extends React.Component {
   render() {
@@ -15,8 +16,9 @@ class StartApp extends React.Component {
             <div className="card-body">
               <h5 className="card-title">Axel Leonardo López Barrera 20768</h5>
               <p className="card-text">
-                
+                Calculadora interactiva
               </p>
+              <Container />
             </div>
           </div>
         </div>
