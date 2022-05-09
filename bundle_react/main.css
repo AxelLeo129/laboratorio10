@@ -11790,7 +11790,8 @@ textarea.form-control-lg {
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/startApp.css ***!
   \**********************************************************************************************************************/
 body {
-  background-image: linear-gradient(180deg, #00ffff 0, #41f5ff 25%, #53bcf2 50%, #5087ab 75%, #425a6e 100%);
+  background: rgb(0, 24, 27);
+  background: linear-gradient(90deg, rgb(0, 24, 27) 22%, rgb(11, 198, 45) 100%);
 }
 
 .global {
@@ -11800,8 +11801,9 @@ body {
 }
 
 .card--width {
+  color: white;
   width: 50rem;
-  background-image: radial-gradient(circle at 50% -20.71%, #faffff 0, #d8f0fa 25%, #b5def2 50%, #92cbeb 75%, #72b9e5 100%);
+  background-color: #36404f;
 }
 /*!**********************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/components/container/Container.scss ***!
@@ -11821,6 +11823,7 @@ body {
 .screen p {
   font-size: 30px;
   margin-right: 15px;
+  color: black;
 }
 /*!********************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.css ***!

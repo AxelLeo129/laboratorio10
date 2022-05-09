@@ -109,16 +109,16 @@ export const botones = [
             buton_style: {width: '100%'}
         },
         {
-            label: '+',
-            value: '+',
-            class: 'btn-danger',
-            rowspan: 2,
-            td_style: {width: '100%', height: "2rem"},
-            buton_style: {width: '100%', height: "100%"}
-        },
-        {
             label: '+/-',
             value: '+/-',
+            class: 'btn-secondary',
+            rowspan: 1,
+            td_style: {width: '100%'},
+            buton_style: {width: '100%'}
+        },
+        {
+            label: '+',
+            value: '+',
             class: 'btn-secondary',
             rowspan: 1,
             td_style: {width: '100%'},
@@ -154,7 +154,15 @@ export const botones = [
             label: 'C',
             value: 'C',
             class: 'btn-danger',
-            rowspan: 2,
+            rowspan: 1,
+            td_style: {width: '100%'},
+            buton_style: {width: '100%'}
+        },
+        {
+            label: 'AC',
+            value: 'AC',
+            class: 'btn-danger',
+            rowspan: 1,
             td_style: {width: '100%'},
             buton_style: {width: '100%'}
         }
